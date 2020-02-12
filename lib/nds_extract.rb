@@ -107,7 +107,7 @@ def movies_with_directors_set(source)
   
   movie = []
   i = 0
-  while i < source.size do
+  while i < source.length do
     director_name = source[i][:name]
     list_of_movies = source[i][:movies]
     movie << movies_with_director_key(director_name, list_of_movies)
@@ -352,59 +352,70 @@ end
      :studio=>"Miramax",
      :worldwide_gross=>70099045,
      :release_year=>2003},
-    {:title=>"Kill Bill Vol. 1",
+    {
+     :title=>"Kill Bill Vol. 1",
      :studio=>"Miramax",
      :worldwide_gross=>66208183,
      :release_year=>2004}]},
  {:name=>"Martin Scorsese",
-  :movies=>
-   [{:title=>"The Departed",
+  :movies=> [{
+     :title=>"The Departed",
      :studio=>"Warner Brothers",
      :worldwide_gross=>132384315,
      :release_year=>2006},
-    {:title=>"Shutter Island",
+    {
+     :title=>"Shutter Island",
      :studio=>"Paramount",
      :worldwide_gross=>128012934,
      :release_year=>2010},
-    {:title=>"The Wolf of Wall Street",
+    {
+     :title=>"The Wolf of Wall Street",
      :studio=>"Paramount",
      :worldwide_gross=>116900694,
      :release_year=>2013},
-    {:title=>"The Aviator",
+    {
+     :title=>"The Aviator",
      :studio=>"Miramax",
      :worldwide_gross=>102610330,
      :release_year=>2004},
-    {:title=>"Cape Fear",
+    {
+     :title=>"Cape Fear",
      :studio=>"Universal",
      :worldwide_gross=>79091969,
      :release_year=>1991},
-    {:title=>"Gangs of New York",
+    {
+     :title=>"Gangs of New York",
      :studio=>"Miramax",
      :worldwide_gross=>77812000,
      :release_year=>2002}]},
  {:name=>"Francis Ford Coppola",
-  :movies=>
-   [{:title=>"The Godfather",
+  :movies=> [{
+     :title=>"The Godfather",
      :studio=>"Paramount",
      :worldwide_gross=>134966411,
      :release_year=>1972},
-    {:title=>"Apocalypse Now",
+    {
+     :title=>"Apocalypse Now",
      :studio=>"MGM",
      :worldwide_gross=>83471511,
      :release_year=>1979},
-    {:title=>"Apocalypse Now Redux",
+    {
+     :title=>"Apocalypse Now Redux",
      :studio=>"Miramax",
      :worldwide_gross=>83471511,
      :release_year=>2001},
-    {:title=>"Bram Stoker's Dracula",
+    {
+     :title=>"Bram Stoker's Dracula",
      :studio=>"Columbia",
      :worldwide_gross=>82522790,
      :release_year=>1992},
-    {:title=>"The Godfather Part III",
+    {
+     :title=>"The Godfather Part III",
      :studio=>"Paramount",
      :worldwide_gross=>66666062,
      :release_year=>1990},
-    {:title=>"Jack",
+    {
+     :title=>"Jack",
      :studio=>"Buena Vista",
      :worldwide_gross=>58620973,
      :release_year=>1996}]}]
