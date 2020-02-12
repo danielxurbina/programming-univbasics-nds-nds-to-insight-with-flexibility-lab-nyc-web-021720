@@ -52,7 +52,8 @@ def movies_with_director_key(name, movies_collection)
   array = []
   i = 0
   while i < movies_collection do
-    director = 
+    array = movies_collection[i]
+    
 end
 
 
