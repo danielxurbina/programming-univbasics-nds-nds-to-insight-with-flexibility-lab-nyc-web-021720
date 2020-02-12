@@ -74,7 +74,8 @@ def gross_per_studio(collection)
   gross = {}
   i = 0
   while i < collection.length do 
-    total = worldwide_gross[i]
+    gross = collection[i][:worldwide_gross]
+    gross << 
   end
 end
 
