@@ -64,7 +64,7 @@ def gross_per_studio(collection)
   # each studio.
   #
   # INPUT:
-  # * collection: Array of Hashes where each Hash where each Hash represents a movie
+  # * collection: Array of Hashes where each Hash represents a movie
   #
   # RETURN:
   #
@@ -82,7 +82,7 @@ def gross_per_studio(collection)
     if gross_total[current_studio_name]
       gross_total[current_studio_name] += current_studio_gross
     else
-      gross_total[current_studio_name]
+      
       gross_total[current_studio_name] = current_studio_gross
     end
     
