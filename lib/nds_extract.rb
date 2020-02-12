@@ -80,7 +80,7 @@ def gross_per_studio(collection)
       gross_total[current_studio_name] += current_studio_gross
     else
       gross_total[current_studio_name]
-      gross_total[current_studio_name] = 
+      gross_total[current_studio_name] = current_studio_gross
   end
 end
 
