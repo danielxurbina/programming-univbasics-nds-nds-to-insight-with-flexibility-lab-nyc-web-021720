@@ -80,7 +80,8 @@ def movies_with_directors_set(source)
   # to have a :director_name key added to it.
   array = []
   i = 0
-  
+  while index < source.length do
+    movies = 
 end
 
 # ----------------    End of Your Code Region --------------------
