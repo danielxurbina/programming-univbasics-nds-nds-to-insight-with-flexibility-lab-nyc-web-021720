@@ -78,6 +78,7 @@ def gross_per_studio(collection)
     current_studio_gross = collection[i][:worldwide_gross]
     if gross_total[current_studio_name]
       gross_total[current_studio_name] += current_studio_gross
+    else
       
   end
 end
