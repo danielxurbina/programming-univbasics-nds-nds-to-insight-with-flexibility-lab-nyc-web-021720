@@ -81,7 +81,11 @@ def movies_with_directors_set(source)
   array = []
   i = 0
   while index < source.length do
-    movies = 
+    director = source[index][:name]
+    movie = source[index][:movies]
+    index += 1
+  end
+  array
 end
 
 # ----------------    End of Your Code Region --------------------
