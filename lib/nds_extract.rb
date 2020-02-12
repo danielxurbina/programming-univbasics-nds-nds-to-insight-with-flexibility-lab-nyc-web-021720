@@ -54,7 +54,7 @@ def movies_with_director_key(name, movies_collection)
     movies << movie_with_director_name(name, movie)
     i += 1
   end
-  movies
+  p movies
 end
 
 
@@ -88,7 +88,7 @@ def gross_per_studio(collection)
     i += 1
   end
   
-  p gross_total
+   gross_total
 end
 
 def movies_with_directors_set(source)
