@@ -50,7 +50,7 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
   array = []
   i = 0
-  while i < movies_collection do
+  while i < movies_collection.length do
     array = movies_collection[i]
     array << movie_with_director_name(name, array)
     i += 1
@@ -71,6 +71,9 @@ def gross_per_studio(collection)
   #
   # Hash whose keys are the studio names and whose values are the sum
   # total of all the worldwide_gross numbers for every movie in the input Hash
+  gross = {}
+  i = 0
+  while i < collection.length do 
 end
 
 def movies_with_directors_set(source)
